@@ -38,6 +38,12 @@ function App() {
           </ul>
         </nav>
       </header>
+
+      <main>
+        <section>About Me</section>
+        <section>Projects</section>
+        <section>Contact</section>
+      </main>
       
 
     </>
