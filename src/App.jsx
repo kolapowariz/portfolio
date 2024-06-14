@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { FiAlignJustify } from "react-icons/fi";
 import { MdCancel } from "react-icons/md";
+// import Myself from '../public/Myself.jpeg'
+import Myself2 from '../public/Myself2.jpeg'
+
 
 
 function App() {
@@ -15,7 +18,7 @@ function App() {
       <header className='lg:hidden flex justify-between mt-4 mx-4'>
         <h1 className='text-2xl'>Kolapo Wariz</h1>
         <nav className='flex flex-col justify-center items-end'>
-          <button onClick={toggle}>{click ? <MdCancel className='w-8 h-8 border'/> : <FiAlignJustify className='w-8 h-8 border'/>}</button>
+          <button onClick={toggle}>{click ? <MdCancel className='w-8 h-8 border' /> : <FiAlignJustify className='w-8 h-8 border' />}</button>
         </nav>
       </header>
       <main className='lg:hidden'>
@@ -32,19 +35,39 @@ function App() {
         <h1 className='text-2xl'>Kolapo Wariz</h1>
         <nav>
           <ul className='flex justify-between mx-4 gap-4 text-xl'>
-            <li>About Me</li>
+            <a href="#about">
+
+              <li>About Me</li>
+            </a>
             <li>Projects</li>
             <li>Contacts</li>
           </ul>
         </nav>
       </header>
+      {/* <img src={Myself} alt="Kolapo Wariz" className='mt-4 w-full mx-auto h-auto rounded-lg' /> */}
+      <img src={Myself2} alt="Kolapo Wariz" className='mt-4 h-72 w-72 mx-auto rounded-full object-cover' />
 
-      <main>
-        <section>About Me</section>
-        <section>Projects</section>
-        <section>Contact</section>
+      <main className='mx-4 my-4'>
+        <section id='about'>
+          <h2 className='text-center text-xl'>About Me</h2>
+          <p>Hello there! </p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
+        </section>
+        <section id='projects'>
+          <h2 className='text-center text-xl'>Projects</h2>
+          <p>Project section is under maintanace</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
+        </section>
+        <section id='contact'>
+          <h2 className='text-center text-xl'>Contact</h2>
+          <p>Contact section is under maintanace</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
+        </section>
       </main>
-      
+
 
     </>
   )
