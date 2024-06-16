@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { FiAlignJustify } from "react-icons/fi";
 import { MdCancel } from "react-icons/md";
-// import Myself from '../public/Myself.jpeg'
-import Myself2 from '../public/Myself2.jpeg'
+// import Myself from '/Myself.jpeg'
+import Myself2 from '/Myself2.jpeg'
 
 
 
@@ -44,23 +44,24 @@ function App() {
           </ul>
         </nav>
       </header>
-      {/* <img src={Myself} alt="Kolapo Wariz" className='mt-4 w-full mx-auto h-auto rounded-lg' /> */}
-      <img src={Myself2} alt="Kolapo Wariz" className='mt-4 h-72 w-72 mx-auto rounded-full object-cover' />
 
       <main className='mx-4 my-4'>
-        <section id='about'>
+        <p className='text-xl my-4'>Hi there! Call me Wariz, a Front End developer and a student at AltSchool Africa.
+        </p>
+        {/* <img src={Myself} alt="Kolapo Wariz" className='mt-4 w-full mx-auto h-auto rounded-lg' /> */}
+        <img src={Myself2} alt="Kolapo Wariz" className='mt-6 h-72 w-72 mx-auto rounded-full object-cover' />
+        <section id='about' className='mt-2'>
           <h2 className='text-center text-xl'>About Me</h2>
-          <p>Hello there! </p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
         </section>
-        <section id='projects'>
+        <section id='projects' className='mt-4'>
           <h2 className='text-center text-xl'>Projects</h2>
           <p>Project section is under maintanace</p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
         </section>
-        <section id='contact'>
+        <section id='contact' className='mt-4'>
           <h2 className='text-center text-xl'>Contact</h2>
           <p>Contact section is under maintanace</p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
