@@ -46,14 +46,23 @@ function App() {
       </header>
 
       <main className='mx-4 my-4'>
-        <p className='text-xl my-4'>Hi there! Call me Wariz, a Front End developer and a student at AltSchool Africa.
-        </p>
+        <p className='text-xl my-4'>Hi there! Call me Wariz.</p>
+        <p className='text-xl my-4'>Front End developer and a student at AltSchool Africa.</p>
         {/* <img src={Myself} alt="Kolapo Wariz" className='mt-4 w-full mx-auto h-auto rounded-lg' /> */}
         <img src={Myself2} alt="Kolapo Wariz" className='mt-6 h-72 w-72 mx-auto rounded-full object-cover' />
         <section id='about' className='mt-2'>
           <h2 className='text-center text-xl'>About Me</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
+          <p className='mt-2'>I&apos;m a passionate and dedicated Frontend Developer who loves creating beautiful, dynamic user and functional web experiences. I enjoy transforming ideas into reality and thrive on solving complex problems with elegant solutions.</p>
+          <p className='mt-4'>During my teenage years, at the age of 17, I became fascinated with the world of programming and I delved into it intending to learn C#. Although I encountered obstacles and my progress was not as smooth as I had envisioned, this experience laid the foundation for my future endeavors. Despite encountering numerous challenges, I persisted in my pursuit. However, my journey took an unexpected turn when I stumbled upon JavaScript, a language that ignited a deep-seated passion within me. From that point on, My path was crystal clear - I was meant to pursue a career in web development. This newfound passion has been the driving force behind my relentless quest for self-improvement, pushing me to continually refine my skills, keep abreast of the latest industry trends, and adhere to best practices in the field.</p>
+          <p className='mt-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
+        </section>
+        <section id='about' className='mt-2'>
+          <h2 className='text-center text-xl'>My Skills</h2>
+          <p className='mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
+          <ul className='mt-4'>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
         </section>
         <section id='projects' className='mt-4'>
           <h2 className='text-center text-xl'>Projects</h2>
