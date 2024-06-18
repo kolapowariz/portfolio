@@ -59,7 +59,17 @@ function App() {
         <section id='about' className='mt-2'>
           <h2 className='text-center text-xl'>My Skills</h2>
           <p className='mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
-          <ul className='mt-4'>
+          <ul className='mt-4 grid grid-cols-2 gap-2 list-disc border lg:grid-cols-4'>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+            <li>VueJS</li>
+            <li>NextJS</li>
+            <li>TailwindCSS</li>
+            <li>Git</li>
+            <li>Github</li>
+            <li>Firebase</li>
             <li>HTML</li>
             <li>CSS</li>
           </ul>
