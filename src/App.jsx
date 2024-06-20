@@ -14,7 +14,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className='w-[95%] mx-auto bg-slate-800 lg:w-4/5 lg:mx-auto lg:bg-teal-500'>
       <header className='lg:hidden flex justify-between mt-4 mx-4'>
         <h1 className='text-2xl'>Kolapo Wariz</h1>
         <nav className='flex flex-col justify-center items-end'>
@@ -87,9 +87,8 @@ function App() {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
         </section>
       </main>
+    </div>
 
-
-    </>
   )
 }
 
