@@ -46,8 +46,8 @@ function App() {
       <main className='mx-4 my-4'>
         <section className='flex flex-col lg:flex-row lg:justify-between lg:items-start'>
           <section className='order-last lg:order-first lg:w-3/5'>
-            <p className='text-2xl lg:text-4xl my-4'>Hi there! Call me Wariz,</p>
-            <p className='text-2xl lg:text-4xl my-4'>FrontEnd developer.</p>
+            <p className='text-2xl lg:text-3xl my-4'>Hi there! Call me Wariz,</p>
+            <p className='text-4xl lg:text-4xl my-4'>FrontEnd developer.</p>
             <section id='about' className='mt-5'>
               <p className='mt-2'>I&apos;m a passionate and dedicated Frontend Developer who loves creating beautiful, dynamic user and functional web experiences. I enjoy transforming ideas into reality and thrive on solving complex problems with elegant solutions.</p>
               <p>During my teenage years, at the age of 17, I became fascinated with the world of programming and I delved into it intending to learn C#. Although I encountered obstacles and my progress was not as smooth as I had envisioned, this experience laid the foundation for my future endeavors. Despite encountering numerous challenges, I persisted in my pursuit. However, my journey took an unexpected turn when I stumbled upon JavaScript, a language that ignited a deep-seated passion within me. From that point on, My path was crystal clear - I was meant to pursue a career in web development. This newfound passion has been the driving force behind my relentless quest for self-improvement, pushing me to continually refine my skills, keep abreast of the latest industry trends, and adhere to best practices in the field.</p>
@@ -58,33 +58,32 @@ function App() {
             {/* <img src={Myself2} alt="Kolapo Wariz" className='mt-6 h-72 w-72 mx-auto rounded-full object-cover' /> */}
           </section>
         </section>
-
-        {/* <section id='about' className='mt-2'>
-          <h2 className='text-center text-xl'>My Skills</h2>
-          <p className='mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
-          <ul className='mt-4 grid grid-cols-2 gap-2 list-disc border lg:grid-cols-4'>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>ReactJS</li>
-            <li>VueJS</li>
-            <li>NextJS</li>
-            <li>TailwindCSS</li>
-            <li>Git</li>
-            <li>Github</li>
-            <li>Firebase</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-        </section> */}
         <section id='projects' className='mt-4'>
-          <h2 className='text-center text-xl'>Projects</h2>
+          <h2 className='text-center text-4xl'>Projects</h2>
+          <section className='flex flex-col lg:flex-row justify-center items-center my-10'>
+            <div className='w-4/5 h-72 rounded-t-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-s-2xl'>
+              <p>Healler</p>
+              <p>Description of Healler</p>
+            </div>
+            <div className='w-4/5 h-72 rounded-b-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-e-2xl'>
+              <img src={Myself2} alt="myself" className='w-20 h-20' />
+            </div>
+          </section>
+          <section className='flex flex-col lg:flex-row justify-center items-center my-10'>
+            <div className='w-4/5 h-72 rounded-t-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-s-2xl'>
+              <p>Capstone Project</p>
+              <p>Description of Capstone project</p>
+            </div>
+            <div className='w-4/5 h-72 rounded-b-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-e-2xl'>
+              <img src={Myself2} alt="myself" className='w-20 h-20' />
+            </div>
+          </section>
           <p>Project section is under maintanace</p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
         </section>
         <section id='contact' className='mt-4'>
-          <h2 className='text-center text-xl'>Contact</h2>
+          <h2 className='text-center text-4xl'>Contact</h2>
           <p>Contact section is under maintanace</p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia delectus cum deserunt dolores repellat sequi corrupti dolorum a facere numquam, id in, illum ab ullam debitis assumenda reprehenderit molestias cumque.</p>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas quam sunt unde neque eveniet commodi recusandae, delectus suscipit quod consequatur culpa quo necessitatibus ullam a, maxime in aspernatur. Placeat?</p>
