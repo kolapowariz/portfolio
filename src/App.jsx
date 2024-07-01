@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FiAlignJustify } from "react-icons/fi";
 import { MdCancel } from "react-icons/md";
 import Myself2 from '/Myself2.jpeg';
+import nft from '/nft.jpg';
 
 
 
@@ -60,22 +61,22 @@ function App() {
         </section>
         <section id='projects' className='mt-4'>
           <h2 className='text-center text-4xl'>Projects</h2>
-          <section className='flex flex-col lg:flex-row justify-center items-center my-10'>
-            <div className='w-4/5 h-72 rounded-t-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-s-2xl'>
+          <section className='flex flex-col lg:flex-row justify-center items-center my-10 '>
+            <div className='w-4/5 h-72 rounded-t-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-s-2xl p-5'>
               <p>Healler</p>
               <p>Description of Healler</p>
             </div>
-            <div className='w-4/5 h-72 rounded-b-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-e-2xl'>
-              <img src={Myself2} alt="myself" className='w-20 h-20' />
+            <div className='w-4/5 h-72 rounded-b-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-e-2xl p-5'>
+              <img src={nft} alt="myself" className='h-full mx-auto' />
             </div>
           </section>
           <section className='flex flex-col lg:flex-row justify-center items-center my-10'>
-            <div className='w-4/5 h-72 rounded-t-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-s-2xl'>
+            <div className='w-4/5 h-72 rounded-t-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-s-2xl p-5'>
               <p>Capstone Project</p>
               <p>Description of Capstone project</p>
             </div>
-            <div className='w-4/5 h-72 rounded-b-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-e-2xl'>
-              <img src={Myself2} alt="myself" className='w-20 h-20' />
+            <div className='w-4/5 h-72 rounded-b-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-e-2xl p-5'>
+              <img src={nft} alt="myself" className='h-full mx-auto' />
             </div>
           </section>
           <p>Project section is under maintanace</p>
