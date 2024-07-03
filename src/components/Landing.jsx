@@ -26,7 +26,7 @@ const Landing = () => {
             <li className='py-2 text-sm'>About Me</li>
             <li className='py-2 text-sm'>Projects</li>
             <li className='py-2 text-sm'>Contacts</li>
-            <li className='py-2 text-sm'>Download CV</li>
+            <li className='py-2 text-sm'>Download Resume</li>
           </ul>
         </div>
       </main>
@@ -38,7 +38,7 @@ const Landing = () => {
             <li>About Me</li>
             <li>Projects</li>
             <li>Contacts</li>
-            <li>Download CV</li>
+            <li>Download Resume</li>
           </ul>
         </nav>
       </header>
