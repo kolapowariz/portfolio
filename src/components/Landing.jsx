@@ -13,7 +13,7 @@ const Landing = () => {
   }
 
   return (
-    <div className='w-[95%] mx-auto lg:w-4/5 lg:mx-auto '>
+    <div className='w-full mx-auto lg:w-[95%] lg:mx-auto bg-[#ffbb8b] p-5 m-5'>
       <header className='lg:hidden flex justify-between mt-4 mx-4'>
         <h1 className='text-sm'>Kolapo Wariz</h1>
         <nav className='flex flex-col justify-center items-end'>
@@ -70,11 +70,11 @@ const Landing = () => {
             </div>
           </Link>
           <Link to='/projects' className='flex flex-col lg:flex-row justify-center items-center my-10'>
-            <div className='w-4/5 h-72 rounded-t-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-s-2xl p-5'>
+            <div className='w-4/5 h-72 rounded-b-xl lg:w-96 lg:h-96 bg-gray-200 lg:rounded-r-2xl lg:rounded-l-none p-5'>
               <p>Capstone Project</p>
               <p>Description of Capstone project</p>
             </div>
-            <div className='w-4/5 h-72 rounded-b-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-e-2xl p-5'>
+            <div className='w-4/5 h-72 rounded-t-xl lg:w-96 lg:h-96 bg-gray-200 lg:rounded-l-2xl lg:rounded-r-none p-5 order-first'>
               <img src={nft} alt="myself" className='h-full mx-auto' />
             </div>
           </Link>
