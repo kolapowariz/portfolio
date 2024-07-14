@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { FiAlignJustify } from "react-icons/fi";
 import { MdCancel } from "react-icons/md";
 import Myself2 from '/Myself2.jpeg';
-import nft from '/nft.jpg';
 import { Link } from 'react-router-dom';
 import fb from '/fb.svg';
 import ig from '/insta.svg';
@@ -48,7 +47,7 @@ const Landing = () => {
         </nav>
       </header>
 
-      <main className='mx-4 my-4'>
+      <main className='my-4'>
         <section id='#' className='flex flex-col lg:flex-row lg:justify-between lg:items-start'>
           <section className='order-last lg:order-first lg:w-3/5'>
             <p className='text-2xl lg:text-3xl my-4'>Hi there! Call me Wariz,</p>
@@ -61,10 +60,10 @@ const Landing = () => {
             </section>
           </section>
           <section>
-            <img src={Myself2} width={779} height={571} alt="Kolapo Wariz" loading='lazy' className='block mt-6 h-72 w-72 mx-auto rounded-full object-cover' />
+            <img src={Myself2} width={779} height={571} alt="Kolapo Wariz" loading='lazy' className='block mt-6 w-80 h-80 lg:h-96 lg:w-96 mx-auto rounded-full object-cover' />
           </section>
         </section>
-        <section id='projects' className='mt-4'>
+        {/* <section id='projects' className='mt-4'>
           <h2 className='text-center text-4xl'>Projects</h2>
           <section className='flex flex-col lg:flex-row justify-center items-center my-10 '>
             <div className='w-full h-72 rounded-t-xl lg:rounded-none lg:w-96 lg:h-96 bg-gray-200 lg:rounded-s-2xl p-5'>
@@ -86,10 +85,10 @@ const Landing = () => {
               <img src={nft} alt="myself" className='h-full mx-auto' />
             </div>
           </section>
-        </section>
+        </section> */}
         <section>
-          {/* <h2 className='text-center text-4xl'>Projects</h2> */}
-          <div>
+          <h2 className='text-center text-4xl'>Projects</h2>
+          <div className='xl:grid lg:grid-cols-2 lg:gap-4'>
             {portdata.portfolio.map((data, index) => {
               return (
                 <div key={index} className='flex flex-col lg:flex-row justify-center items-center my-10 '>
